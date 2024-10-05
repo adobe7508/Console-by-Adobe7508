@@ -13,11 +13,19 @@ Custom Language Support: Execute commands from a custom language interpreter.
 To run this project, you need Python 3.6 or higher and the following libraries:
 
 pygame==2.6.0
+
+
 vim
+
+
 You can install the required libraries using:
 
 python console.py
+
+
 Usage
+
+
 Once the console is running, you can use various commands. Here are some common commands:
 
 help: Display available commands.
