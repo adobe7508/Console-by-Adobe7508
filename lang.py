@@ -190,10 +190,6 @@ class MyLangInterpreter:
         else:
             print("Usage: new <variable_name> <value>")
 
-
-    def handle_narrate(self, story):
-        print(story)
-
 if __name__ == "__main__":
     interpreter = MyLangInterpreter()
     while True:
