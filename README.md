@@ -1,4 +1,7 @@
 Console-by-Adobe7508
+
+
+
 This project implements a command-line interface (CLI) resembling the functionality of Windows Command Prompt. It supports various commands for file management, music playback, and custom language interpretation.
 
 Features
@@ -7,34 +10,12 @@ Music Playback: Play, pause, and stop music files using pygame.
 Directory Management: Change, create, and remove directories.
 File Execution: Run scripts, executables, and open files of various types.
 Custom Language Support: Execute commands from a custom language interpreter.
-Basic Command History: Save and load command history for convenience.
-Tab Completion: Basic command completion for user input (note: may require manual implementation).
-Requirements
 To run this project, you need Python 3.6 or higher and the following libraries:
 
 pygame==2.6.0
-pyreadline==2.1 (for Windows)
+vim
 You can install the required libraries using:
 
-bash
-Copy code
-pip install -r requirements.txt
-Installation
-Clone this repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/Console-by-Adobe7508.git
-cd Console-by-Adobe7508
-Install the dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Run the console application:
-
-bash
-Copy code
 python console.py
 Usage
 Once the console is running, you can use various commands. Here are some common commands:
