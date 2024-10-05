@@ -190,35 +190,6 @@ class MyLangInterpreter:
         else:
             print("Usage: new <variable_name> <value>")
 
-    def handle_create_character(self, command):
-        parts = command.split(" ")
-        name = parts[0]
-        health = int(parts[1]) if len(parts) > 1 else 100
-        self.characters[name] = {'health': health, 'inventory': []}
-        print(f"Character '{name}' created with {health} health.")
-
-    def handle_attack(self, target_name):
-        if target_name in self.characters:
-            damage = 10
-            self.characters[target_name]['health'] -= damage
-            print(f"{self.current_character} attacked {target_name} for {damage} damage!")
-            print(f"{target_name}'s health is now {self.characters[target_name]['health']}.")
-        else:
-            print(f"Character '{target_name}' not found!")
-
-    def handle_add_item(self, item_name):
-        if self.current_character:
-            self.characters[self.current_character]['inventory'].append(item_name)
-            print(f"{item_name} added to {self.current_character}'s inventory.")
-        else:
-            print("No active character.")
-
-    def handle_show_inventory(self):
-        if self.current_character:
-            inventory = self.characters[self.current_character]['inventory']
-            print(f"{self.current_character}'s inventory: {', '.join(inventory) if inventory else 'Empty'}")
-        else:
-            print("No active character.")
 
     def handle_narrate(self, story):
         print(story)
