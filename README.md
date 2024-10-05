@@ -21,26 +21,44 @@ Usage
 Once the console is running, you can use various commands. Here are some common commands:
 
 help: Display available commands.
+
+
 exit: Exit the console.
+
+
 cd <directory>: Change the current directory.
+
+
 dir: List files in the current directory.
+
+
 mkdir <directory>: Create a new directory.
+
+
 rmdir <directory>: Remove a directory.
+
+
 echo <message>: Print a message to the console.
+
+
 play <music_file>: Play a music file.
+
+
 pause: Pause the currently playing music.
+
+
 stop: Stop the currently playing music.
+
+
 run <file>: Run an executable, script, or open a file.
+
+
 edit <filename>: Edit a file using Vim.
+
+
 Custom Language Support
+
+
+
+
 The console supports a custom language interpreter through the MyLangInterpreter class. You can create and run commands in this custom language by using keywords like p, i, and new.
-
-Contributing
-Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments
-Pygame for providing a simple way to handle multimedia in Python.
-Python for being a versatile programming language.
